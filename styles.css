@@ -103,6 +103,64 @@
   text-decoration: none;
 }
 
+.carousel .carousel__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.carousel .carousel__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carousel .carousel__article {
+  -webkit-margin-end: 12px;
+          margin-inline-end: 12px;
+}
+
+.carousel .carousel__article .carousel__article--image {
+  border-radius: 20px;
+}
+
+.carousel .carousel__article h4,
+.carousel .carousel__article h6 {
+  margin-block: 12px;
+}
+
+.collection .collection__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.collection .collection__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.collection .collection__card {
+  -webkit-margin-end: 12px;
+          margin-inline-end: 12px;
+  background-color: #fff8f2;
+  border-radius: 20px;
+  padding: 16px;
+}
+
 .hero {
   padding-block: 24px;
   display: -ms-grid;
@@ -116,7 +174,11 @@
 }
 
 .hero .hero__image {
-  margin: auto;
+  margin-block: auto;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
   padding: 24px;
   background: linear-gradient(45deg, #ff4203, #ff9900);
 }
@@ -139,5 +201,40 @@
 
 .hero__text--nav .link {
   color: #004fc9;
+}
+
+.content {
+  padding-block: 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.content .content__image--start {
+  margin-block: auto;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+}
+
+.content .content__text--end {
+  margin: auto;
+  padding: 24px;
+}
+
+.content .content__image--end {
+  margin-block: auto;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+
+.content .content__text--start {
+  margin: auto;
+  -webkit-padding-end: 24px;
+          padding-inline-end: 24px;
 }
 /*# sourceMappingURL=styles.css.map */

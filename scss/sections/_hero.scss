@@ -8,7 +8,9 @@
 		margin: auto;
 	}
 	.hero__image {
-		margin: auto;
+		margin-block: auto;
+		margin-inline-start: 0;
+		margin-inline-end: auto;
 		padding: 24px;
 		background: linear-gradient(45deg, $brandPrimary, $notice);
 	}

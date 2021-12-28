@@ -1,0 +1,23 @@
+.content {
+	padding-block: 24px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	.content__image--start {
+		margin-block: auto;
+		margin-inline-end: 0;
+		margin-inline-start: auto;
+	}
+	.content__text--end {
+		margin: auto;
+		padding: 24px;
+	}
+	.content__image--end {
+		margin-block: auto;
+		margin-inline-start: 0;
+		margin-inline-end: auto;
+	}
+	.content__text--start {
+		margin: auto;
+		padding-inline-end: 24px;
+	}
+}
