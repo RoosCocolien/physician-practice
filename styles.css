@@ -1,0 +1,143 @@
+.navigation__primary {
+  padding-inline: 24px;
+  background-color: #000;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation__primary .link {
+  color: #fff;
+}
+
+.navigation__primary .navigation__primary--list {
+  list-style-type: none;
+}
+
+.navigation__primary .navigation__primary--item {
+  display: inline-block;
+  text-align: center;
+  padding: 12px;
+}
+
+.navigation__secondary {
+  padding-inline: 24px;
+  padding-block: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation__secondary .link {
+  color: #000;
+}
+
+.navigation__secondary .navigation__secondary--list {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.navigation__secondary .navigation__secondary--item {
+  display: inline-block;
+  -webkit-padding-end: 12px;
+          padding-inline-end: 12px;
+}
+
+.navigation__secondary .navigation__secondary--icon {
+  -webkit-padding-end: 24px;
+          padding-inline-end: 24px;
+}
+
+.navigation__tertiary {
+  padding-inline: 24px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation__tertiary .link {
+  color: #000;
+}
+
+.navigation__tertiary .navigation__tertiary--list {
+  list-style-type: none;
+}
+
+.navigation__tertiary .navigation__tertiary--item {
+  display: inline-block;
+}
+
+.container {
+  padding-inline: 60px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hero {
+  padding-block: 24px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.hero .hero__text {
+  margin: auto;
+}
+
+.hero .hero__image {
+  margin: auto;
+  padding: 24px;
+  background: linear-gradient(45deg, #ff4203, #ff9900);
+}
+
+.hero__text--nav {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero__text--nav .hero__text--nav-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.hero__text--nav .hero__text--nav-item {
+  display: inline-block;
+}
+
+.hero__text--nav .link {
+  color: #004fc9;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+@import '../core/colors';
+
+.hero {
+	padding-block: 24px;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	.hero__text {
+		margin: auto;
+	}
+	.hero__image {
+		margin: auto;
+		padding: 24px;
+		background: linear-gradient(45deg, $brandPrimary, $notice);
+	}
+}
+
+.hero__text--nav {
+	padding: 0px;
+	display: flex;
+	.hero__text--nav-list {
+		list-style-type: none;
+		padding: 0px;
+	}
+	.hero__text--nav-item {
+		display: inline-block;
+	}
+	.link {
+		color: $brandSecondary;
+	}
+}

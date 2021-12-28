@@ -1,0 +1,64 @@
+@import '../core/colors';
+
+.navigation__primary {
+	padding-inline: 24px;
+	background-color: $black;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.link {
+		color: $white;
+	}
+	.navigation__primary--list {
+		list-style-type: none;
+	}
+	.navigation__primary--item {
+		display: inline-block;
+		text-align: center;
+		padding: 12px;
+	}
+}
+
+.navigation__secondary {
+	padding-inline: 24px;
+	padding-block: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.link {
+		color: $black;
+	}
+	.navigation__secondary--list {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		list-style-type: none;
+	}
+	.navigation__secondary--item {
+		display: inline-block;
+		padding-inline-end: 12px;
+	}
+	.navigation__secondary--icon {
+		padding-inline-end: 24px;
+	}
+}
+
+.navigation__tertiary {
+	padding-inline: 24px;
+	border-top: 1px solid $grey-200;
+	border-bottom: 1px solid $grey-200;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.link {
+		color: $black;
+	}
+	.navigation__tertiary--list {
+		list-style-type: none;
+	}
+	.navigation__tertiary--item {
+		display: inline-block;
+	}
+}
