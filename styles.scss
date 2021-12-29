@@ -1,7 +1,15 @@
-@import 'scss/layout/navigation';
-@import 'scss/layout/layout';
-@import 'scss/components/link';
+@import 'scss/components/banner';
 @import 'scss/components/carousel';
 @import 'scss/components/collection';
-@import 'scss/sections/hero';
+@import 'scss/components/footer';
+@import 'scss/components/link';
+@import 'scss/layout/layout';
+@import 'scss/layout/navigation';
 @import 'scss/sections/content';
+@import 'scss/sections/hero';
+@import 'scss/sections/uptodate';
+
+* {
+	margin: 0;
+	padding: 0;
+}

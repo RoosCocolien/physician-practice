@@ -16,7 +16,8 @@
 	.navigation__primary--item {
 		display: inline-block;
 		text-align: center;
-		padding: 12px;
+		padding-block: 12px;
+		padding-inline-start: 12px;
 	}
 }
 
@@ -40,15 +41,12 @@
 		display: inline-block;
 		padding-inline-end: 12px;
 	}
-	.navigation__secondary--icon {
-		padding-inline-end: 24px;
-	}
 }
 
 .navigation__tertiary {
 	padding-inline: 24px;
+	padding-block: 24px;
 	border-top: 1px solid $grey-200;
-	border-bottom: 1px solid $grey-200;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

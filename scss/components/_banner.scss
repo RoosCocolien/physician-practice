@@ -1,0 +1,11 @@
+@import '../core/colors';
+
+.banner {
+	margin-block: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: $backgroundPurple;
+	border-radius: 20px;
+	padding-inline: 48px;
+}
