@@ -1,0 +1,17 @@
+@mixin breakpoint($value) {
+	@if $value==tablet {
+		@media screen and (min-width: 576px) {
+			@content;
+		}
+	}
+	@if $value==desktop {
+		@media screen and (min-width: 768px) {
+			@content;
+		}
+	}
+	@if $value==wide {
+		@media screen and (min-width: 1072px) {
+			@content;
+		}
+	}
+}

@@ -1,0 +1,120 @@
+@import '../core/variables';
+@import '../core/mixins';
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('../../fonts/Raleway-Regular.ttf');
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('../../fonts/Raleway-Italic.ttf');
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('../../fonts/Raleway-Bold.ttf');
+	font-style: bold;
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../../fonts/SourceSansPro-Regular.ttf');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../../fonts/SourceSansPro-Bold.ttf');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../../fonts/SourceSansPro-Italic.ttf');
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	src: url('../../fonts/SourceSansPro-BoldItalic.ttf');
+	font-style: italic;
+	font-weight: bold;
+}
+
+// Fonts
+$font-family-display: 'Raleway';
+$font-family-body: 'Source Sans Pro';
+
+body {
+	font-family: $font-family-body;
+	font-weight: normal;
+}
+
+p {
+	font-family: $font-family-body;
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway';
+	font-weight: 'bold';
+}
+
+h1 {
+	font-size: 36px;
+	@media screen and (min-width: 768px) {
+		font-size: 56px;
+	}
+}
+h2 {
+	font-size: 32px;
+	@include breakpoint(desktop) {
+		font-size: 48px;
+	}
+}
+h3 {
+	font-size: 28px;
+	@include breakpoint(desktop) {
+		font-size: 40px;
+	}
+}
+h4 {
+	font-size: 24px;
+	@include breakpoint(desktop) {
+		font-size: 32px;
+	}
+}
+h5 {
+	font-size: 20px;
+	@include breakpoint(desktop) {
+		font-size: 24px;
+	}
+}
+h6 {
+	font-size: 16px;
+	@include breakpoint(desktop) {
+		font-size: 20px;
+	}
+}
+
+.xs {
+	font-size: 12px;
+}
+.sm {
+	font-size: 12px;
+	@include breakpoint(desktop) {
+		font-size: 16px;
+	}
+}
+.md {
+	font-size: 16px;
+	@include breakpoint(desktop) {
+		font-size: 20px;
+	}
+}
+.lg {
+	font-size: 20px;
+	@include breakpoint(desktop) {
+		font-size: 24px;
+	}
+}
