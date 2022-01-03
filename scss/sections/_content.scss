@@ -1,3 +1,5 @@
+@import '../core/colors';
+
 .content {
 	padding-block: 24px;
 	display: grid;
@@ -10,7 +12,22 @@
 	}
 	.content__text--end {
 		margin: auto;
-		padding: 24px;
+		padding: 64px;
+		& > * {
+			padding-block-end: 16px;
+		}
+	}
+	.content__text--brand {
+		color: $brandPrimary;
+	}
+	.content__text--icon {
+		background-color: $brandPrimary;
+		color: $white;
+		border-radius: 3px;
+		padding-block-start: 8px;
+		padding-inline-start: 6px;
+		padding-inline-end: 2px;
+		margin-inline-end: 4px;
 	}
 	.content__image--end {
 		margin-block: auto;
@@ -20,6 +37,9 @@
 	}
 	.content__text--start {
 		margin: auto;
-		padding-inline-end: 24px;
+		padding-inline-end: 80px;
+		& > * {
+			padding-block-end: 16px;
+		}
 	}
 }

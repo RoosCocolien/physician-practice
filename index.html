@@ -112,7 +112,7 @@
 			<article class="carousel">
 				<header class="carousel__header">
 					<h5>New</h5>
-					<a class="link" href="#">See all resources &gt;</a>
+					<a class="link link__brand" href="#">See all resources &gt;</a>
 					</ul>
 				</header>
 				<section class="carousel__wrapper">
@@ -182,7 +182,7 @@
 				</section>
 			</article>
 
-			<!-- carousel 2 -->
+			<!-- slideshow -->
 			<section class="slideshow">
 				<ol class="slideshow__viewport">
 					<li id="slideshow__slide1" tabindex="0" class="slideshow__slide">
@@ -192,8 +192,10 @@
 							src="https://via.placeholder.com/377x276/FFF8F2"
 							alt="Person with face mask"
 							/>
-							<h6>Webinar</h6>
-							<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							<section class="slideshow__article--text">
+								<h6>Webinar</h6>
+								<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							</section>
 						</article>
 						
 						<div class="slideshow__navigation">
@@ -213,8 +215,10 @@
 							src="https://via.placeholder.com/377x276/F2F6FC"
 							alt="Person with face mask"
 							/>
-							<h6>Webinar</h6>
-							<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							<section class="slideshow__article--text">
+								<h6>Webinar</h6>
+								<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							</section>
 						</article>
 						
 						<div class="slideshow__navigation">
@@ -234,8 +238,10 @@
 							src="https://via.placeholder.com/377x276/FFF0FF"
 							alt="Person with face mask"
 							/>
-							<h6>Webinar</h6>
-							<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							<section class="slideshow__article--text">
+								<h6>Webinar</h6>
+								<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							</section>
 						</article>
 						
 						<div class="slideshow__navigation">
@@ -255,8 +261,10 @@
 							src="https://via.placeholder.com/377x276/F3FBF6"
 							alt="Person with face mask"
 							/>
-							<h6>Webinar</h6>
-							<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							<section class="slideshow__article--text">
+								<h6>Webinar</h6>
+								<h4>Behind the scenes of developing Pfizer's COVID-19 vaccine</h4>
+							</section>
 						</article>
 						
 						<div class="slideshow__navigation">
@@ -271,8 +279,6 @@
 				</ol>
 			</section>
 
-
-
 			<!-- Image + Text  -->
 			<article class="content">
 				<img class="content__image--start"
@@ -280,23 +286,23 @@
 					alt="Person with face mask"
 				/>
 				<article class="content__text--end">
-					<a href="#">Reference & decision support solutions &gt;</a>
+					<a href="#" class="link link__brand">Reference & decision support solutions &gt;</a>
 					<h3>Improve patient outcomes with clinical and drug references</h3>
 					<p>
 						Accessible evidence based content for all stages of a patient care.
 					</p>
-					<h5><span>CK</span>ClinicalKey</h5>
+					<h5 class="content__text--brand"><span class="content__text--icon">CK</span>ClinicalKey</h5>
 				</article>
 			</article>
 			<!-- Image + Text -->
 			<article class="content">
 				<article class="content__text--start">
-					<a href="#">Clinical Pathways Solutions &gt;</a>
+					<a href="#" class="link link__brand">Clinical Pathways Solutions &gt;</a>
 					<h3>Supports clinical practice by delivering the most current and trusted information</h3>
 					<p>
 						Evidence-based content solutions integrated directly into the EHR to provide a patient-centered care. 
 					</p>
-					<h5><span>CP</span>ClinicalPath</h5>
+					<h5 class="content__text--brand"><span class="content__text--icon">CP</span>ClinicalPath</h5>
 				</article>
 				<img
 					class="content__image--end"
@@ -394,8 +400,8 @@
 					<label for="mail">
 						<strong><abbr title="required"></abbr></strong>
 					</label>
-					<input type="email" id="mail" placeholder="Your email" />
-					<button class="button button__brand sm">Subscribe</button>
+					<input class="input sm" type="email" id="mail" placeholder="Your email" />
+					<button class="button button__brand button__form sm">Subscribe</button>
 				</section>
 			</article>
 		</main>
@@ -406,14 +412,14 @@
 			</section>
 			<section class="footer__pagelinks">
 				<ul class="footer__pagelinks--list">
-					<li class="footer__pagelinks--item"><a class="link" href="#">Product Support &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">Health Hub &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">For Medical Faculty &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">For Researcher &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">Clinics &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">Hospitals &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">COVID-19 &gt;</a></li>
-					<li class="footer__pagelinks--item"><a class="link" href="#">Open Science &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">Product Support &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">Health Hub &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">For Medical Faculty &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">For Researcher &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">Clinics &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">Hospitals &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">COVID-19 &gt;</a></li>
+					<li class="footer__pagelinks--item"><a class="link link__brand" href="#">Open Science &gt;</a></li>
 				</ul>
 			</section>
 			<section class="footer__logos">

@@ -1,7 +1,7 @@
 @import 'scss/components/banner';
 @import 'scss/components/carousel';
 @import 'scss/components/collection';
-@import 'scss/components/footer';
+@import 'scss/sections/footer';
 @import 'scss/components/link';
 @import 'scss/layout/layout';
 @import 'scss/layout/navigation';
@@ -11,6 +11,7 @@
 @import 'scss/core/typography';
 @import 'scss/components/slideshow';
 @import 'scss/components/buttons';
+@import 'scss/components/input';
 
 * {
 	margin: 0;

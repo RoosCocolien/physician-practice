@@ -1,4 +1,7 @@
 .carousel {
+	& > * {
+		padding-block-end: 24px;
+	}
 	.carousel__header {
 		display: flex;
 		align-items: center;

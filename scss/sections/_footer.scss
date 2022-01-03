@@ -4,18 +4,22 @@
 	.footer__header,
 	.footer__pagelinks {
 		padding-inline: 60px;
+		& > * {
+			margin-block-end: 32px;
+		}
 	}
 	.footer__pagelinks--list {
 		list-style-type: none;
 		columns: 4;
-		margin: 0;
+		margin-block-end: 0;
 		padding: 0;
 	}
-	.link {
-		color: $brandSecondary;
+	.footer__pagelinks--item {
+		padding-block-end: 16px;
 	}
 	.footer__logos {
 		padding-inline: 24px;
+		margin-block-start: 64px;
 		display: flex;
 		justify-content: space-between;
 	}

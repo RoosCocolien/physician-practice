@@ -1,3 +1,16 @@
+@import '../core/mixins';
+@import '../core/variables';
+
 .container {
 	padding-inline: 60px;
+}
+
+.container > * {
+	margin-block-end: $spaceMobile;
+	@include breakpoint(tablet) {
+		margin-block-end: $spaceTablet;
+	}
+	@include breakpoint(desktop) {
+		margin-block-end: $spaceDesktop;
+	}
 }

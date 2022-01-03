@@ -8,4 +8,9 @@
 	background-color: $backgroundPurple;
 	border-radius: 20px;
 	padding-inline: 48px;
+	.banner__text {
+		& > h4 {
+			margin-block-end: 24px;
+		}
+	}
 }
