@@ -6,6 +6,8 @@
 	}
 	.carousel__wrapper {
 		display: flex;
+		overflow: auto;
+		white-space: wrap;
 	}
 	.carousel__article {
 		margin-inline-end: 12px;
